@@ -1,0 +1,42 @@
+section{
+    .container{
+        .row{
+            margin-top: 5%;
+        }
+        img{
+            opacity: 0.83;
+            margin-right: 10px;
+            margin-top: 10px;
+            height: 250px;
+            width: 200px;
+
+            &:hover{
+                opacity: 1;
+                cursor: pointer;
+                margin-right: 5px;
+                margin-top: 5px;
+                height: 255px;
+                width: 205px;
+            }
+        }
+        .profile{
+            img{
+                opacity: 1;
+                margin-right: 5px;
+                margin-top: 5px;
+                height: 500px;
+                width: 450px;
+
+                &:hover{
+                    cursor: default;
+                    height: 500px ;
+                    width: 450px ;
+                }
+            }
+        }
+        .line{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}
