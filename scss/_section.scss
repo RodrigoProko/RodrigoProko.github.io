@@ -1,0 +1,81 @@
+$margin: 10px;
+$height: 250px;
+$width: 200;
+
+section{
+    .container{
+        margin-bottom: $margin * 5 ;
+        .row{
+            margin-top: 5%;
+        }
+        img{
+            opacity: 0.83;
+            margin-right: $margin;
+            margin-top: $margin;
+            height: $height;
+            width: $width;
+
+            &:hover{
+                opacity: 1;
+                cursor: pointer;
+                margin-right: $margin - 5;
+                margin-top: $margin - 5;
+                height: $height + 5;
+                width: $width + 5;
+            }
+        }
+        .profile{
+            img{
+                opacity: 1;
+                margin-right: $margin - 5;
+                margin-top: $margin - 5;
+                height: $height * 2;
+                width: ($width * 2) + 50;
+
+                &:hover{
+                    cursor: default;
+                    height:  $height * 2 ;
+                    width: ($width * 2) + 50 ;
+                }
+            }
+        }
+        .line{
+            margin-top: $margin * 5;
+            margin-bottom: $margin * 5;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        .container{
+            justify-content: center !important;
+            text-align: center;
+            display: block !important;
+            .profile{
+                .about-us{
+                    margin-top: $margin * 5;
+                    width: 100%;
+                    display: block;
+                    
+                    img{
+                        position: inherit;
+                        opacity: 1;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top:  $margin - 5;
+                        justify-content: center;
+                        height: ($height * 3) + 50 ;
+                        width: ($width * 3) + 100;
+        
+                        &:hover{
+                            cursor: default;
+                            height: $height * 2 ;
+                            width: ($width * 2) + 50 ;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}

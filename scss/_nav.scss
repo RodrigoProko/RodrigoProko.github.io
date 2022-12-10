@@ -1,0 +1,30 @@
+nav{
+    .log{
+        margin-left: 5%;
+    }
+    .bar{
+        position: inherit;
+        
+    }
+    .elem {
+        margin-left: 50%;
+        &:hover{
+            border-radius: 3px;
+            background-color: rgba(189, 189, 193, 0.28);
+        }
+    }
+
+}
+@media screen and (max-width: 1080px) {
+    .navbar {
+        .nav-link{
+            margin-left: 1% !important;
+            margin-right: 1% !important;
+            padding-left: 1% !important;
+            padding-right: 1% !important;
+        }
+       
+       
+    }
+    
+}

@@ -1,0 +1,9 @@
+@import "section";
+header{
+    width: 100%;
+    height: $height - 50;
+    .header_img{
+        width: 100%;
+        height: $height - 50;
+    }
+}
