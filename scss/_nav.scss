@@ -22,9 +22,26 @@ nav{
             margin-right: 1% !important;
             padding-left: 1% !important;
             padding-right: 1% !important;
+        } 
+    }   
+}
+
+@media screen and (max-width: 991px) {
+
+    nav .elem {
+        text-align: center;
+        margin-left: 0%;
+       //padding-left: 3%;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+    }
+    .dropdown-menu{
+        background-color: rgba(58, 56, 56, 0.298);
+        .dropdown-item{
+            color:white;
         }
-       
-       
     }
     
 }

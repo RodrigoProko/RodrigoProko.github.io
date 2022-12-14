@@ -88,6 +88,17 @@ nav .elem {
     padding-left: 1% !important;
     padding-right: 1% !important; } }
 
+@media screen and (max-width: 991px) {
+  nav .elem {
+    text-align: center;
+    margin-left: 0%; }
+  .nav-link {
+    text-transform: uppercase; }
+  .dropdown-menu {
+    background-color: rgba(58, 56, 56, 0.298); }
+    .dropdown-menu .dropdown-item {
+      color: white; } }
+
 section .container {
   margin-bottom: 50px; }
   section .container .row {
@@ -202,6 +213,9 @@ footer {
   footer .container .row .col-4 {
     margin-top: 50px;
     text-decoration: none;
-    text-align: justify; }
+    text-align: justify;
+    font-size: 10px; }
     footer .container .row .col-4 a i {
-      margin-right: 10px; }
+      margin-right: 10px;
+      font-size: 25px;
+      color: white; }
